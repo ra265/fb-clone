@@ -1,0 +1,33 @@
+img {
+    object-fit: contain;
+    height: 150px;
+}
+
+.login > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+button {
+    background-color: #2e81f4;
+    color: #eff2f5;
+    font-weight: 700;
+    width: 300px;
+    border: none;
+   padding: 15px 0;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #eff2f5;
+    color: #2e81f4;
+}
+
